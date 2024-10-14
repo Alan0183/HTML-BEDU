@@ -1,0 +1,991 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #DFBE6A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1B365D;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+input::-moz-placeholder {
+  font-size: 0.9rem !important;
+  font-family: "Poppins", sans-serif;
+}
+
+input::placeholder {
+  font-size: 0.9rem !important;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 3.5rem !important;
+  font-family: "Ibarra Real Nova";
+}
+
+p {
+  font-size: 1rem;
+  color: #1B365D;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+nav,
+footer {
+  background: #1B365D;
+  font-family: "Poppins", sans-serif;
+}
+
+.textR {
+  text-align: right;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+.homesecondary {
+  text-align: center;
+  top: 50%;
+  z-index: 10;
+  right: -19%;
+}
+
+.homep {
+  z-index: 10;
+}
+
+.textrote {
+  transform: rotate(-270deg);
+}
+
+.homefirst {
+  bottom: 10%;
+  z-index: 10;
+  left: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homefirst {
+    left: 0% !important;
+    bottom: 15% !important;
+  }
+}
+.slideCoast {
+  bottom: 20%;
+  left: 53%;
+  position: absolute;
+}
+
+.borderSlide {
+  box-shadow: 3px 3px 2px #D8D8D8;
+}
+
+.indication {
+  position: absolute;
+  top: 88% !important;
+  width: 3% !important;
+}
+.indicationPrev {
+  left: 89% !important;
+}
+.indicationNext {
+  right: 3% !important;
+}
+
+#contact hr {
+  width: 80%;
+  background: #DFBE6A;
+  margin: auto;
+}
+
+#inputSecondary hr {
+  width: 80%;
+  background: #DFBE6A;
+  margin: auto;
+}
+
+.locationPrimary {
+  width: 80%;
+  background: #DFBE6A;
+  margin: auto;
+}
+
+.locationSecondary {
+  width: 3%;
+  background: #1B365D;
+}
+
+.contactList {
+  list-style: none;
+}
+.contactList a {
+  color: #1B365D;
+}
+
+.contactList:hover {
+  list-style: none;
+}
+.contactList:hover a {
+  color: #1B365D;
+}
+
+#contact,
+#contactResidences,
+#inputSecondary,
+#inputPrimary {
+  background-color: #F7FDFF;
+}
+
+.languages li {
+  display: inline;
+  list-style: none;
+}
+
+.primaryButton {
+  display: inline-block;
+  background: #1B365D;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: #DFBE6A;
+  border-radius: 0;
+  padding: 15px 20px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223, 190, 106, 0.8), rgba(146, 111, 52, 0.8), rgba(34, 34, 34, 0), rgba(34, 34, 34, 0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid #DFBE6A;
+  font-family: "Poppins", sans-serif;
+}
+
+.primaryButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223, 190, 106, 0);
+  background-position: 99% 50%;
+}
+
+.reservationsButton {
+  display: inline-block;
+  background: #1B365D;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: #DFBE6A;
+  border-radius: 0;
+  padding: 5px 10px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223, 190, 106, 0.8), rgba(146, 111, 52, 0.8), rgba(34, 34, 34, 0), rgba(34, 34, 34, 0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid #DFBE6A;
+  font-family: "Poppins", sans-serif;
+}
+
+.reservationsButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223, 190, 106, 0);
+  background-position: 99% 50%;
+}
+
+.textMark {
+  color: #DFBE6A;
+}
+
+.imageD {
+  width: 75%;
+}
+
+.textShadow {
+  text-shadow: 3px 3px 2px #2E2E2E;
+}
+
+.newsletter {
+  border: 1px solid #DFBE6A;
+  background: #F7FDFF;
+  border-right: transparent;
+}
+
+.contactButton {
+  display: inline-block;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: #DFBE6A;
+  border-radius: 0;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223, 190, 106, 0.8), rgba(146, 111, 52, 0.8), rgba(34, 34, 34, 0), rgba(34, 34, 34, 0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid #DFBE6A;
+  margin-left: -0.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223, 190, 106, 0);
+  background-position: 99% 50%;
+}
+
+.learButton {
+  display: inline-block;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: #DFBE6A;
+  border-radius: 0;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223, 190, 106, 0.8), rgba(146, 111, 52, 0.8), rgba(34, 34, 34, 0), rgba(34, 34, 34, 0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.7rem;
+  border: none;
+  border: 1px solid #DFBE6A;
+  margin-left: -0.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.learButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223, 190, 106, 0);
+  background-position: 99% 50%;
+}
+
+.pButton {
+  padding: 0.66rem;
+}
+
+.contactSecondaryButton {
+  display: inline-block;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: #DFBE6A;
+  border-radius: 0;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223, 190, 106, 0.8), rgba(146, 111, 52, 0.8), #1B365D, #1B365D);
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid #DFBE6A;
+  margin-left: -0.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactSecondaryButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223, 190, 106, 0);
+  background-position: 99% 50%;
+}
+
+.textNow {
+  font-size: 6rem !important;
+  letter-spacing: 0.2em;
+  font-family: "Poppins", sans-serif !important;
+  word-spacing: 0.05rem;
+}
+
+.textNow2 {
+  font-size: 5rem !important;
+  letter-spacing: 0.2em;
+  font-family: "Poppins", sans-serif !important;
+  word-spacing: 0.05rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .textNow2,
+  .textNow {
+    font-size: 3rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .iconBar {
+    width: 50% !important;
+  }
+}
+.primaryCont {
+  background-color: #F7FDFF;
+  height: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .primaryCont {
+    height: 40% !important;
+  }
+}
+.contenedor1 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.imagen1 {
+  margin-top: 89px;
+}
+
+.encima {
+  position: absolute;
+}
+
+.realImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Real-Estate/El-Careyes-Real-estate-cover.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.realText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+.residenceText {
+  text-align: left;
+  top: 45%;
+  left: 2%;
+}
+
+.residenceIcon {
+  text-align: right;
+  top: 55.1%;
+  right: 5%;
+  z-index: 10;
+}
+
+.opacityMain {
+  filter: brightness(70%);
+}
+
+.imageOne,
+.imageTwo,
+.imageThree,
+.imageFour {
+  width: 100%;
+}
+
+.coastImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Costa-Careyes/Costa-Careyes-Cover.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.coastText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+.reservationImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Reservations/El-Careyes-Reservations-cover.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.reservationText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 29.5%;
+  transform: translate(-50%, -50%);
+}
+
+.reyes1 {
+  border-top: 3px solid;
+  color: #DFBE6A;
+  width: 5%;
+}
+
+.learmore {
+  border: 1px solid #DFBE6A;
+  border-right: transparent;
+  height: 3rem;
+}
+
+#club,
+#coast,
+#reserva,
+#residence {
+  background: #F7FDFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .galleryMovil {
+    position: absolute;
+    top: -36%;
+    margin: 0px;
+    width: 94.5% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .galleryMovil {
+    position: absolute;
+    top: -32%;
+    margin: 0px;
+    width: 93% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .galleryMov {
+    margin: 2.5rem 0px 0rem 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .galleryMov {
+    margin: 2.5rem 0px 0rem 0px;
+  }
+}
+.menuActive {
+  color: #DFBE6A !important;
+  border-bottom: 2px solid #DFBE6A;
+  font-weight: 900;
+}
+
+.textnav {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+}
+
+.textnav:hover {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.borderCol {
+  border: 1px solid #DFBE6A;
+}
+
+progress {
+  height: 2px;
+}
+
+progress::-webkit-progress-value {
+  background: #1B365D;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.borderBox {
+  border: 1px solid #DFBE6A;
+}
+
+.line {
+  width: 3%;
+  background: #DFBE6A;
+  height: 2px;
+}
+
+.residenceButton {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.residenceButton:hover {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #DFBE6A !important;
+}
+
+.keyResidences {
+  font-size: 2rem;
+  text-decoration: none !important;
+}
+
+.keyResidences:hover {
+  text-decoration: none !important;
+}
+
+.pButton {
+  padding: 0.7rem !important;
+  padding-bottom: 0.68rem !important;
+}
+
+.bT {
+  width: 100%;
+  background: #DFBE6A;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 11rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .bT {
+    margin-bottom: 1rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .bT {
+    margin-bottom: 1rem !important;
+  }
+}
+.barPr {
+  background-color: #DFBE6A !important;
+}
+
+.iconHand {
+  z-index: 10;
+  right: 10%;
+}
+
+#map {
+  width: 100%;
+  height: 22rem;
+}
+
+.slideprogress {
+  padding: 0rem 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .iconHand {
+    position: absolute;
+    z-index: 10;
+    right: 9%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slideprogress {
+    padding: 0rem 0rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imageBar {
+    width: 50% !important;
+  }
+}
+#home-about-section .owl-nav {
+  display: none;
+}
+#home-about-section .owl-dots {
+  display: none;
+}
+#home-about-section .text-book-now {
+  letter-spacing: 3px;
+  color: #DFBE6A;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-stages-section-text {
+  bottom: 0;
+  position: absolute;
+  background-color: #F7FDFF;
+  left: 3.9%;
+}
+
+.home-stages-section-text p {
+  font-size: 0.8rem;
+}
+
+#booking-information {
+  letter-spacing: 5px;
+  color: #DFBE6A;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+#booking-information .icono-flecha {
+  width: 100%;
+  max-width: 80px;
+}
+
+.color-progreso-dorado {
+  background-color: #DFBE6A;
+}
+
+.porcentaje-cien {
+  width: 100%;
+}
+
+.porcentaje-cincuenta {
+  width: 66%;
+}
+
+.porcentaje-treinta {
+  width: 33%;
+}
+
+svg#icon-swipe {
+  width: 72px;
+  height: 35px;
+}
+svg#icon-swipe #hand {
+  fill: #DFBE6A;
+  transform-origin: 50% 100%;
+  animation: hand-swipe 3.5s infinite ease;
+}
+svg#icon-swipe #left, svg#icon-swipe #right {
+  fill: #DFBE6A;
+  opacity: 0;
+}
+svg#icon-swipe #right {
+  animation: arrow-right 3.5s infinite ease;
+}
+svg#icon-swipe #left {
+  animation: arrow-left 3.5s infinite ease;
+}
+
+@keyframes hand-swipe {
+  5% {
+    transform: translateX(3px) rotate(6deg);
+  }
+  25% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  28% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  33% {
+    transform: translateX(-3px) rotate(-6deg);
+  }
+  53% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+@keyframes arrow-right {
+  7% {
+    transform: translateX(8px);
+    opacity: 1;
+  }
+  17% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  18%, 100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+@keyframes arrow-left {
+  0%, 30% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  37% {
+    transform: translateX(-8px);
+    opacity: 1;
+  }
+  47% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  48%, 100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home-stages-section-text {
+    padding: 0.2rem !important;
+    left: 8%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home-stages-section-text h4, p {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #inputPrimary #inputSecondary {
+    margin: 0rem;
+  }
+}
+.letter {
+  letter-spacing: 0.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .letter {
+    font-size: x-small;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .newsletter,
+  .learmore {
+    width: 75%;
+    border: 1px solid #DFBE6A;
+    border-right: transparent;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contactButton,
+  .contactSecondaryButton {
+    margin-left: 2.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  input::-moz-placeholder {
+    font-size: 0.7rem !important;
+  }
+  input::placeholder {
+    font-size: 0.7rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  input::-moz-placeholder {
+    font-size: 0.7rem !important;
+  }
+  input::placeholder {
+    font-size: 0.7rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fondo-home-about-section {
+    padding: 0rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fondo-home-about-section h2 {
+    font-size: 2.5rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slideHome {
+    margin-top: 5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .titleCarouse {
+    font-size: 1.7rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .paragraphCarouse {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .indicationPrev {
+    left: 70% !important;
+  }
+}
+.indLeftMainSlider {
+  position: absolute;
+  top: 88% !important;
+  width: 8% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-m {
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2.2rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .reservationText,
+  .realText,
+  .coastText {
+    left: 50% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slideCoast {
+    bottom: 80%;
+    left: 0%;
+    position: initial;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imageM {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contactButton,
+  .contactSecondaryButton,
+  .learButton {
+    letter-spacing: 0rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .contactButton,
+  .contactSecondaryButton,
+  .learButton {
+    letter-spacing: 0rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slideResidences {
+    margin-top: 8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .slideResidences {
+    margin-top: 6.8rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .residenceText {
+    text-align: left;
+    top: 20% !important;
+    left: 0% !important;
+  }
+}
+@media only screen and (max-width: 1245px) {
+  .residenceText {
+    text-align: left;
+    top: 30% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .residenceText {
+    text-align: left;
+    top: 25%;
+    left: 0% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .titleResidence {
+    font-size: 2rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .paragraphResidence {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .titleResidence {
+    font-size: 1.6rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .paragraphResidence {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .residenceIcon {
+    text-align: right;
+    top: 37%;
+    right: 3%;
+    font-size: 0.5rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .residenceIcon {
+    text-align: right;
+    top: 32%;
+    right: 3%;
+    font-size: 0.5rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .residenceButton {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .keyResidences {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .moreResidence {
+    font-size: 0.5rem !important;
+    margin-bottom: 0rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imageOne,
+  .imageTwo,
+  .imageThree,
+  .imageFour {
+    margin: 1rem 0rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slideHome,
+  .reservationImage,
+  .coastImage,
+  .realImage {
+    margin-top: 5.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slideHome,
+  .reservationImage,
+  .coastImage,
+  .realImage {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .reservationImage {
+    margin-top: 6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .coastText {
+    left: 45% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2.2rem !important;
+  }
+}/*# sourceMappingURL=main.css.map */

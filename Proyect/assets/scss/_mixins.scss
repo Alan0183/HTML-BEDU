@@ -1,0 +1,23 @@
+@mixin for-phone-only {
+	@media only screen and (max-width: 600px) {
+		@content;
+
+	}
+
+}
+
+@mixin for-phone-small-only {
+	@media only screen and (max-width: 400px) {
+		@content;
+
+	}
+
+}
+
+@mixin for-phone-grand-only {
+	@media only screen and (max-width: 1245px) {
+		@content;
+
+	}
+
+}

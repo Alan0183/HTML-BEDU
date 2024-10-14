@@ -1,0 +1,7 @@
+@mixin card-base {
+	background-color: $primary-color;
+	color: $text-color;
+	border-radius: $card-border-radius;
+	border: 1px solid $secondary-color;
+	padding: $card-padding;
+}
